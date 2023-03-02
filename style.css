@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200&display=swap");
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  font-family:'poppins', sans-serif;
+}
+header {
+  background-image: url(/images/4-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 780px;
+  color: whitesmoke;
+}
+.menu a {
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 10px 20px;
+  margin: 5px;
+}
+li {
+  list-style: none;
+  display: inline;
+}
+.name,
+.name h2,
+.menu,
+.menu ul,
+.searchbar {
+  display: inline;
+}
+.searchbar {
+  float: right;
+  margin-right: 12px;
+}
+.searchbar i {
+  margin: 11px;
+}
+.searchbar i:hover{
+  color:lightseagreen;
+  cursor: pointer;
+}
+.menu,
+.name {
+  margin-left: 150px;
+}
+.name h2{
+font-size: xx-large;
+}
+.side {
+  margin: 230px;
+}
+.navbar {
+  padding: 10px;
+}
+.side h4,
+.side h1,
+.side button {
+  margin: 10px;
+}
+.side h4 {
+  font-family: 'Poppins', sans-serif;
+}
+.side h1{
+ font-family:'Playfair Display', serif;
+ font-size: xx-large;
+}
+.side button{
+  border: none;
+border-radius: 60px;
+display: block;
+padding: 10px 15px;
+margin: 30px;
+margin-left: 100px;
+cursor: pointer;
+background:lightseagreen;
+color: white;
+font-family: 'Poppins', sans-serif;
+
+}
+.side button:hover{
+  color: black;
+  background: rgb(67, 219, 67);
+}
+.menu ul li a{
+  font-family: 'Poppins', sans-serif;
+color: whitesmoke;
+}
+.menu li:hover{
+background: lightseagreen; 
+color: black;
+padding: 6px 0px;
+margin: 5px;
+border-radius: 50px;
+}
+.menu ul li a:hover{
+  color: black;
+}
+.name h2 span{
+  font-weight: 10;
+}
+.container{
+  display:flex;
+}
+.women{
+  background-image: url(/images/banner-01.jpg);
+
+}
+.men{
+  background-image: url(/images/banner-02.jpg);
+}
+.accessories{
+  background-image: url(/images/banner-03.jpg);
+
+}
+.women , .men , .accessories{
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 250px;
+  width: 40%;
+  margin: 40px;
+  padding: 50px;
+  border: 1px solid lightseagreen;
+
+}
+.article{
+  margin: 50px 120px; 
+}
+.productmenu li{
+  padding-right: 30px;
+}
+.products {
+  margin-bottom: 30px;
+}
+.productmenu li:hover{
+  color: lightseagreen;
+  cursor: pointer;
+  margin: 5px;
+}
+.row1 img , .row2 img{
+  height: 250px;
+  width: 200px;
+}
+.row1 , .row2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width:90%;
+  margin: auto;
+}
+.button button{
+  border-radius: 60px;
+display:block;
+padding: 10px 15px;
+margin: 30px;
+margin-left: 630px;
+cursor: pointer;
+background:lightgray;
+color: black;
+font-family: 'Poppins', sans-serif;
+border: none;
+}
+.button button:hover{
+  background: lightseagreen;
+  color: white;
+}
+.foot{
+  color: black;
+}
+.container2{
+  display: flex;
+  margin: 20px;
+}
+  .catagories,.help ,.touch ,.email{
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width:30%;
+  height: 10px;
+  margin: 70px;
+  padding: 75px 0px 32px;
+  margin-top: 10px;
+  }
+.catagories h3 ,.p1,.help h3,.p2,.touch h3,.p3,.email h3,.p4{ 
+  padding: 10px;
+}
+ /* .help h3,.p2{ 
+  padding: 10px;
+} */
+/* .touch h3,.p3{
+  padding: 10px;
+} */
+/* .email h3,.p4{
+  padding: 10px;
+} */
+.foot{
+  background-color: black;
+  color: white;
+  height: 300px;
+  margin-top: 50px;
+}
+.p1,.p2,.p3,.p4{
+  font-size: small;
+}
+.p3 i{
+  margin: 8px;
+  font-size: large;
+}
+.p3 i:hover{
+  color: lightseagreen;
+  cursor: pointer;
+}
+.p4 button{
+  border: none;
+border-radius: 60px;
+padding: 10px 15px;
+margin: 20px;
+margin-left: auto;
+cursor: pointer;
+background:lightseagreen;
+color: white;
+font-family: 'Poppins', sans-serif;
+}
+.p4 button:hover{
+  color: black;
+ background: rgb(67, 219, 67); 
+}
+.p1 p, .p2 p{
+  padding-top:10px;
+}
+.p4 input{
+  border-top:solid ;
+  border-left:none ;
+  border-right: none;
+  background: transparent;
+}
+
+
+
+
+
+
+
+
